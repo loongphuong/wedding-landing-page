@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { CountDown } from "./CountDown";
 
 const CountdownTimer = () => {
-  const targetDate = new Date("2025-03-16T00:00:00").getTime();
+  const targetDate = new Date("2025-03-15T11:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     months: 0,
     days: 0,

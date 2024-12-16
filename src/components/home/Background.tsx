@@ -10,12 +10,12 @@ export function Background() {
           <Image
             src={BackgroundImage}
             alt="background"
-            className="h-screen w-100% object-cover"
+            className="h-screen w-screen object-cover"
           />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-[white]">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-[white] max-sm:w-full">
             <h1 className="font-bold text-[6rem] font-name">Thái & Long</h1>
             <h3 className="mt-10 mb-10 text-xl font-thin uppercase">
-              We are getting married at Mar 16, 2025
+              We are getting married at Mar 15, 2025
             </h3>
             <CountdownTimer />
           </div>

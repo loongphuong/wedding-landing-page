@@ -41,13 +41,13 @@ export function Info() {
           Cô Dâu & Chú Rể
         </h2>
       </div>
-      <div className="flex items-center mt-20">
+      <div className="flex items-center mt-20 flex-wrap">
         <div
           id="left-side-info"
-          className="w-1/3 flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
+          className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
         >
           <Image src={BrideImage} alt="bride" />
-          <p className="font-name text-4xl mt-10">Hồng Thái</p>
+          <p className="font-name text-4xl mt-10 text-center">Hồng Thái</p>
           <span className="mt-5 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             quisquam aperiam veniam assumenda, recusandae voluptatum ipsum
@@ -57,7 +57,7 @@ export function Info() {
         </div>
         <div
           id="milestone-info"
-          className="w-1/3 flex items-center flex-col px-10 py-20 shadow-outer"
+          className="w-1/3 max-sm:w-full flex items-center flex-col px-10 py-20 shadow-outer"
         >
           <div>
             {contents.map((item, i) => (
@@ -72,10 +72,10 @@ export function Info() {
         </div>
         <div
           id="right-side-info"
-          className="w-1/3 flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
+          className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
         >
           <Image src={GroomImage} alt="groom" />
-          <p className="font-name text-4xl mt-10">Thành Long</p>
+          <p className="font-name text-4xl mt-10 text-center">Thành Long</p>
           <span className="mt-5 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             quisquam aperiam veniam assumenda, recusandae voluptatum ipsum

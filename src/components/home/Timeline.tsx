@@ -7,7 +7,7 @@ export function Timeline() {
     {
       src: Icon2Image,
       title: "Lễ gia tiên",
-      date: "Thứ Bảy, 16 Mar 2025",
+      date: "Thứ Bảy, 15 Mar 2025",
       time: "10:00 AM",
       locationTitle: "Tổ chức tại tư gia",
       locationDescription: "Xuân La, Tây Hồ, Hà Nội",
@@ -15,7 +15,7 @@ export function Timeline() {
     {
       src: Icon1Image,
       title: "Đón khách",
-      date: "Thứ Bảy, 16 Mar 2025",
+      date: "Thứ Bảy, 15 Mar 2025",
       time: "10:30h AM",
       locationTitle: "Trung Tâm Hội Nghị Tiệc Cưới Sen Hồng",
       locationDescription: "614 Đ. Lạc Long Quân",
@@ -24,7 +24,7 @@ export function Timeline() {
     {
       src: Icon2Image,
       title: "Khởi hành hôn lễ",
-      date: "Thứ Bảy, 16 Mar 2025",
+      date: "Thứ Bảy, 15 Mar 2025",
       time: "11h AM",
       locationTitle: "Trung Tâm Hội Nghị Tiệc Cưới Sen Hồng",
       locationDescription: "614 Đ. Lạc Long Quân",
@@ -44,18 +44,20 @@ export function Timeline() {
           Khi nào & Ở đâu
         </h2>
       </div>
-      <div className="flex justify-around mt-48 bg-[#FDF5ED] pb-32">
+      <div className="flex justify-around mt-48 bg-[#FDF5ED] pb-32 flex-wrap">
         {items.map((item, i) => (
           <div
             key={i}
-            className="shadow-outer px-28 py-10 w-[30%] flex items-center flex-col h-[400px] bg-white -mt-32"
+            className="shadow-outer px-[16px] py-[16px] w-[30%] max-sm:w-full flex items-center justify-center flex-col h-[400px] bg-white -mt-32 max-sm:mt-0"
           >
-            <div>
+            <div className="h-1/2 pt-10">
               <Image src={item.src} alt={item.title} className="mx-auto my-0" />
-              <h4 className="uppercase text-xl mt-5">{item.title}</h4>
+              <h4 className="uppercase text-xl mt-5 text-centers">
+                {item.title}
+              </h4>
             </div>
-            <div className="text-center">
-              <span className="block text-lg mt-10">{item.date}</span>
+            <div className="text-center h-1/2">
+              <span className="block text-lg">{item.date}</span>
               <span className="block text-lg">{item.time}</span>
               <span className="block text-lg">{item.locationTitle}</span>
               {item.mapSrc ? (

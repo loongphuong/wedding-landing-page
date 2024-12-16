@@ -24,9 +24,12 @@ export function Gallery() {
           Khoảnh khắc đáng nhớ
         </h2>
       </div>
-      <div className="flex flex-wrap mt-10 -mx-4">
+      <div className="flex flex-wrap mt-10 -mx-4 max-sm:mx-0">
         {images.map((img, i) => (
-          <div key={i} className="xl:w-1/4 p-4 md:w-1/3 w-full">
+          <div
+            key={i}
+            className="w-1/4 max-md:w-1/2 p-4 max-sm:p-0 max-sm:w-full"
+          >
             <Image className="w-full" height={200} src={img} alt="Gallery" />
           </div>
         ))}
