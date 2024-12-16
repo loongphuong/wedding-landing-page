@@ -11,7 +11,18 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        prime: "#E2C697",
       },
+      backgroundColor: {
+        prime: "#E2C697",
+      },
+      boxShadow: {
+        outer: "0 1px 10px 0 rgba(211, 222, 227, .7)",
+      },
+    },
+    fontFamily: {
+      name: "var(--font-wind-song)",
+      time: "var(--font-cormorant)",
     },
   },
   plugins: [],
