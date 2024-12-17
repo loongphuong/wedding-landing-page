@@ -1,7 +1,22 @@
 import Image from "next/image";
-import { BrideImage, GroomImage, SectionTitleImage } from "../../assets/images";
+import {
+  Bride,
+  FacebookIcon,
+  Groom,
+  GroomQR,
+  QrCodeIcon,
+  SectionTitleImage,
+} from "../../assets/images";
 import { Milestone } from "./Milestone";
 import { formatDate } from "../../helpers";
+import { Social } from "./Social";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "../common/Modal";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 export function Info() {
   const contents = [
@@ -46,7 +61,11 @@ export function Info() {
           id="left-side-info"
           className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
         >
-          <Image src={BrideImage} alt="bride" />
+          <Image
+            src={Bride}
+            alt="bride"
+            className="rounded-[50%] max-w-[300px] w-full"
+          />
           <p className="font-name text-4xl mt-10 text-center">Hồng Thái</p>
           <span className="mt-5 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
@@ -54,6 +73,35 @@ export function Info() {
             corporis in quibusdam. Quisquam quam, ullam assumenda porro
             blanditiis maxime rerum corrupti tempore doloribus!
           </span>
+          <div id="socials" className="flex mt-3">
+            <Social
+              src={FacebookIcon}
+              alt="facebook"
+              href="https://www.facebook.com/nht.4497"
+              isBlank={true}
+            />
+            <Dialog>
+              <DialogTrigger>
+                <Image
+                  width={20}
+                  height={20}
+                  src={QrCodeIcon}
+                  alt={"qrcode"}
+                  className={"mr-1 cursor-pointer"}
+                />
+              </DialogTrigger>
+              <DialogContent className="p-0 w-auto border-none">
+                <VisuallyHidden>
+                  <DialogTitle>QR Code</DialogTitle>
+                </VisuallyHidden>
+                <Image
+                  src={GroomQR}
+                  alt="qr"
+                  className="max-w-[500px] max-sm:w-[300px]"
+                />
+              </DialogContent>
+            </Dialog>
+          </div>
         </div>
         <div
           id="milestone-info"
@@ -74,7 +122,11 @@ export function Info() {
           id="right-side-info"
           className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
         >
-          <Image src={GroomImage} alt="groom" />
+          <Image
+            src={Groom}
+            alt="groom"
+            className="rounded-[50%] max-w-[300px] w-full"
+          />
           <p className="font-name text-4xl mt-10 text-center">Thành Long</p>
           <span className="mt-5 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
@@ -82,6 +134,35 @@ export function Info() {
             corporis in quibusdam. Quisquam quam, ullam assumenda porro
             blanditiis maxime rerum corrupti tempore doloribus!
           </span>
+          <div id="socials" className="flex mt-3">
+            <Social
+              src={FacebookIcon}
+              alt="facebook"
+              href="https://www.facebook.com/longpt99"
+              isBlank={true}
+            />
+            <Dialog>
+              <DialogTrigger>
+                <Image
+                  width={20}
+                  height={20}
+                  src={QrCodeIcon}
+                  alt={"qrcode"}
+                  className={"mr-1 cursor-pointer"}
+                />
+              </DialogTrigger>
+              <DialogContent className="p-0 w-auto border-none">
+                <VisuallyHidden>
+                  <DialogTitle>QR Code</DialogTitle>
+                </VisuallyHidden>
+                <Image
+                  src={Groom}
+                  alt="qr"
+                  className="max-w-[500px] max-sm:w-[300px]"
+                />
+              </DialogContent>
+            </Dialog>
+          </div>
         </div>
       </div>
     </section>
