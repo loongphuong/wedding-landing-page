@@ -83,8 +83,8 @@ export function Info() {
             <Dialog>
               <DialogTrigger>
                 <Image
-                  width={20}
-                  height={20}
+                  width={25}
+                  height={25}
                   src={QrCodeIcon}
                   alt={"qrcode"}
                   className={"mr-1 cursor-pointer"}
@@ -144,8 +144,8 @@ export function Info() {
             <Dialog>
               <DialogTrigger>
                 <Image
-                  width={20}
-                  height={20}
+                  width={25}
+                  height={25}
                   src={QrCodeIcon}
                   alt={"qrcode"}
                   className={"mr-1 cursor-pointer"}

@@ -21,37 +21,42 @@ export default {
       },
       keyframes: {
         all: {
-          "0%": { opacity: "1", transform: "scale(1.2)" },
+          "0%": { opacity: "1", transform: "scale(1.3)" },
           "100%": { opacity: "1", transform: "scale(1)" },
         },
         topToBottom: {
           "0%": { transform: "translate(-50%,-170%)", opacity: "0" },
           "100%": { transform: "translate(-50%,-150%)", opacity: "1" },
         },
+        smBottomToBottom: {
+          "0%": { transform: "translate(-50%,-270%)", opacity: "0" },
+          "100%": { transform: "translate(-50%,-250%)", opacity: "1" },
+        },
         bottomToTopBgText: {
-          "0%": { transform: "translate(-50%,-130%)", opacity: "0" },
-          "100%": { transform: "translate(-50%,-150%)", opacity: "1" },
+          "0%": { transform: "translate(-50%,500%)", opacity: "0" },
+          "100%": { transform: "translate(-50%,400%)", opacity: "1" },
         },
         bottomToTopBgTimer: {
-          "0%": { transform: "translate(-50%,70%)", opacity: "0" },
-          "100%": { transform: "translate(-50%,50%)", opacity: "1" },
+          "0%": { transform: "translate(-50%,-30%)", opacity: "0" },
+          "100%": { transform: "translate(-50%,-50%)", opacity: "1" },
         },
         smBottomToTopBgText: {
-          "0%": { transform: "translate(-50%,15%)", opacity: "0" },
-          "100%": { transform: "translate(-50%,-5%)", opacity: "1" },
+          "0%": { transform: "translate(-50%,500%)", opacity: "0" },
+          "100%": { transform: "translate(-50%,400%)", opacity: "1" },
         },
         smBottomToTopBgTimer: {
-          "0%": { transform: "translate(-50%,70%)", opacity: "0" },
-          "100%": { transform: "translate(-50%,50%)", opacity: "1" },
+          "0%": { transform: "translate(-50%,10%)", opacity: "0" },
+          "100%": { transform: "translate(-50%,0%)", opacity: "1" },
         },
       },
       animation: {
-        all: "all 5s ease-in-out",
-        topToBottom: "topToBottom 1s ease-in",
-        bottomToTopBgText: "bottomToTopBgText 1s ease-in",
-        bottomToTopBgTimer: "bottomToTopBgTimer 1s ease-in",
-        smBottomToTopBgText: "smBottomToTopBgText 1s ease-in",
-        smBottomToTopBgTimer: "smBottomToTopBgTimer 1s ease-in",
+        all: "all 8s ease-in-out",
+        topToBottom: "topToBottom 2s ease-in",
+        bottomToTopBgText: "bottomToTopBgText 2s ease-in",
+        bottomToTopBgTimer: "bottomToTopBgTimer 2s ease-in",
+        smBottomToTopBgText: "smBottomToTopBgText 2s ease-in",
+        smBottomToTopBgTimer: "smBottomToTopBgTimer 2s ease-in",
+        smBottomToBottom: "smBottomToBottom 2s ease-in",
       },
     },
     fontFamily: {

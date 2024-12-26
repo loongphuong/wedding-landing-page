@@ -1,5 +1,24 @@
-import { GalleryImage, SectionTitleImage } from "../../assets/images";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "../common/Modal";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
+import {
+  GalleryImage,
+  GroomImage,
+  SectionTitleImage,
+} from "../../assets/images";
 import Image from "next/image";
+import AutoHeight from "embla-carousel-auto-height";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../common/Carousel";
 
 export function Gallery() {
   const images = [
@@ -10,7 +29,7 @@ export function Gallery() {
     GalleryImage,
     GalleryImage,
     GalleryImage,
-    GalleryImage,
+    GroomImage,
   ];
   return (
     <section id="person-info" className="mt-20 max-w-[1400px] ml-auto mr-auto">
@@ -30,7 +49,40 @@ export function Gallery() {
             key={i}
             className="w-1/4 max-md:w-1/2 p-4 max-sm:p-0 max-sm:w-full"
           >
-            <Image className="w-full" height={200} src={img} alt="Gallery" />
+            <Dialog>
+              <DialogTrigger className="w-full">
+                <Image
+                  className="w-full"
+                  height={200}
+                  src={img}
+                  alt="Gallery"
+                />
+              </DialogTrigger>
+              <DialogContent className="p-0 w-auto border-none">
+                <VisuallyHidden>
+                  <DialogTitle>Image</DialogTitle>
+                </VisuallyHidden>
+                <div>
+                  <Carousel
+                    opts={{
+                      loop: true,
+                      startIndex: i,
+                    }}
+                    plugins={[AutoHeight()]}
+                  >
+                    <CarouselContent className="h-full">
+                      {images.map((img, i) => (
+                        <CarouselItem key={i} className="h-full">
+                          <Image className="w-full" src={img} alt="Gallery" />
+                        </CarouselItem>
+                      ))}
+                    </CarouselContent>
+                    <CarouselPrevious className="bg-white" />
+                    <CarouselNext className="bg-white" />
+                  </Carousel>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         ))}
       </div>

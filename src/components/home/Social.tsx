@@ -13,8 +13,8 @@ interface SocialProps {
 export function Social(props: SocialProps) {
   const {
     src,
-    width = 20,
-    height = 20,
+    width = 25,
+    height = 25,
     alt,
     styles,
     href = "#",

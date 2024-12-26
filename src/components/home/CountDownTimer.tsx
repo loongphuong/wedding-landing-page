@@ -71,7 +71,7 @@ const CountdownTimer = () => {
   ];
 
   return (
-    <div id="countdown" className="flex">
+    <div id="countdown" className="flex max-sm:flex-wrap">
       {periods.map((period, i) => (
         <CountDown key={i} period={period} />
       ))}

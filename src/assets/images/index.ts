@@ -1,4 +1,5 @@
 import BackgroundImage from "./h1-slider1-background.jpg";
+import Background2Image from "./h3-slider1-background.jpg";
 import SectionTitleImage from "./section-title-img.png";
 import SectionTitle2Image from "./section-title-img-2.png";
 import BrideImage from "./bride-img.png";
@@ -16,8 +17,12 @@ import Bride from "./bride.jpg";
 import Groom from "./groom.jpg";
 import GroomQR from "./groom_qr.jpg";
 import CloseIcon from "./close-icon.svg";
+import TopIcon from "./top-icon.svg";
+import ArrowRight from "./arrow-right-icon.svg";
+import ArrowLeft from "./arrow-left-icon.svg";
 
 export {
+  TopIcon,
   BackgroundImage,
   SectionTitleImage,
   SectionTitle2Image,
@@ -36,4 +41,7 @@ export {
   Groom,
   CloseIcon,
   GroomQR,
+  Background2Image,
+  ArrowLeft,
+  ArrowRight,
 };
