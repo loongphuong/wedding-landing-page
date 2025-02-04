@@ -8,7 +8,7 @@ export function Location() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
         title="Google Map"
-        className="w-screen"
+        className="w-full"
       />
     </section>
   );
