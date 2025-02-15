@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Background2Image, BackgroundImage } from "../../assets/images";
+import { Background1 } from "../../assets/images";
 import CountdownTimer from "./CountDownTimer";
 import { Carousel, CarouselContent, CarouselItem } from "../common/Carousel";
 import AutoPlay from "embla-carousel-autoplay";
@@ -35,7 +35,7 @@ export function Background() {
               handleChangeActive={handleChangeActive}
             >
               <CarouselContent>
-                {[BackgroundImage, Background2Image].map((image, index) => (
+                {[Background1].map((image, index) => (
                   <CarouselItem key={index}>
                     <div className="overflow-hidden">
                       <Image

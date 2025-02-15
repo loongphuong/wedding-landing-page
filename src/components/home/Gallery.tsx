@@ -6,9 +6,15 @@ import {
 } from "../common/Modal";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import {
-  GalleryImage,
-  GroomImage,
   SectionTitleImage,
+  Gallery1,
+  Gallery2,
+  Gallery3,
+  Gallery7,
+  Gallery8,
+  Gallery6,
+  Gallery5,
+  Gallery4,
 } from "../../assets/images";
 import Image from "next/image";
 import AutoHeight from "embla-carousel-auto-height";
@@ -22,14 +28,14 @@ import {
 
 export function Gallery() {
   const images = [
-    GalleryImage,
-    GalleryImage,
-    GalleryImage,
-    GalleryImage,
-    GalleryImage,
-    GalleryImage,
-    GalleryImage,
-    GroomImage,
+    Gallery1,
+    Gallery2,
+    Gallery3,
+    Gallery4,
+    Gallery5,
+    Gallery6,
+    Gallery7,
+    Gallery8,
   ];
   return (
     <section id="person-info" className="mt-20 max-w-[1400px] ml-auto mr-auto">

@@ -20,7 +20,15 @@ import CloseIcon from "./close-icon.svg";
 import TopIcon from "./top-icon.svg";
 import ArrowRight from "./arrow-right-icon.svg";
 import ArrowLeft from "./arrow-left-icon.svg";
-
+import Gallery1 from "./gallery_1.jpg";
+import Gallery2 from "./gallery_2.jpg";
+import Gallery3 from "./gallery_3.jpg";
+import Gallery4 from "./gallery_4.jpg";
+import Gallery5 from "./gallery_5.jpg";
+import Gallery6 from "./gallery_6.jpg";
+import Gallery7 from "./gallery_7.jpg";
+import Gallery8 from "./gallery_8.jpg";
+import Background1 from "./background_1.jpg";
 export {
   TopIcon,
   BackgroundImage,
@@ -44,4 +52,13 @@ export {
   Background2Image,
   ArrowLeft,
   ArrowRight,
+  Gallery1,
+  Gallery2,
+  Gallery3,
+  Gallery4,
+  Gallery5,
+  Gallery6,
+  Gallery7,
+  Gallery8,
+  Background1,
 };
