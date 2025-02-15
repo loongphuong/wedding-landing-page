@@ -60,7 +60,7 @@ export function Background() {
           <CountdownTimer />
         </div>
         <h3 className="absolute top-1/2 left-1/2 -translate-x-1/2  translate-y-[400%] animate-bottomToTopBgText text-white text-4xl font-thin uppercase text-center w-full max-sm:-translate-x-2/4 max-sm:translate-y-[400%] max-sm:text-lg max-sm:animate-smBottomToTopBgText">
-          We are getting married at Mar 15, 2025
+          Nhà có hỷ - Mar 15, 2025
         </h3>
       </div>
     </section>

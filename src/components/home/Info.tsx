@@ -28,19 +28,19 @@ export function Info() {
     },
     {
       title: "First time we met.",
-      time: formatDate(new Date()),
+      time: formatDate(new Date("2020/12/28")),
       content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Quaerat, quidem modi iste qui recusandae voluptatem officiis natus`,
     },
     {
       title: "He asked & she said yes.",
-      time: formatDate(new Date()),
+      time: formatDate(new Date("2025/02/15")),
       content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
         Quaerat, quidem modi iste qui recusandae voluptatem officiis natus`,
     },
     {
       title: "The wedding day!",
-      time: formatDate(new Date()),
+      time: formatDate(new Date("2025/03/15")),
     },
   ];
 
