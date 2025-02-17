@@ -21,25 +21,27 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 export function Info() {
   const contents = [
     {
-      title: "Our love story.",
-      time: formatDate(new Date()),
-      content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Quaerat, quidem modi iste qui recusandae voluptatem officiis natus`,
+      title: "Chuyện tình của chúng mình.",
+      // time: formatDate(new Date()),
+      content: `Từ đồng nghiệp nên duyên thành bạn đời.`,
     },
     {
-      title: "First time we met.",
+      title: "Lần đầu gặp nhau.",
       time: formatDate(new Date("2020/12/28")),
-      content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Quaerat, quidem modi iste qui recusandae voluptatem officiis natus`,
+      content: `Ngày đầu chúng mình gặp nhau cũng là ngày đầu tiên Long chính thức là thành viên của trung tâm.`,
     },
     {
-      title: "He asked & she said yes.",
+      title: "Buổi hẹn đầu tiên.",
+      time: formatDate(new Date("2022/01/08")),
+      content: `Chúng mình đã có 1 khoảng thời gian khá dài tìm hiểu nhau, và sau hơn 1 năm đi quay cơm cùng nhau, chúng mình quyết định từ đồng nghiệp trở thành người yêu.`,
+    },
+    {
+      title: "Anh hỏi, em đồng ý.",
       time: formatDate(new Date("2025/02/15")),
-      content: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Quaerat, quidem modi iste qui recusandae voluptatem officiis natus`,
+      content: `Ban đầu mình ko tính lấy Long đâu, vì Long chưa chịu cầu hôn mình. Nhưng vào ngày dạm ngõ, trước thời điểm 2 bên gia đình chốt sổ, Long đã đeo nhẫn và thì thầm vào tai mình lời cầu hôn, úp sọt mình thành công. Dù sai quy trình nhưng vẫn đúng kết quả 😝`,
     },
     {
-      title: "The wedding day!",
+      title: "Ngày chung đôi!",
       time: formatDate(new Date("2025/03/15")),
     },
   ];
@@ -67,12 +69,7 @@ export function Info() {
             className="rounded-[50%] max-w-[300px] w-full"
           />
           <p className="font-name text-4xl mt-10 text-center">Thành Long</p>
-          <span className="mt-5 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            quisquam aperiam veniam assumenda, recusandae voluptatum ipsum
-            corporis in quibusdam. Quisquam quam, ullam assumenda porro
-            blanditiis maxime rerum corrupti tempore doloribus!
-          </span>
+
           <div id="socials" className="flex mt-3">
             <Social
               src={FacebookIcon}
@@ -128,12 +125,7 @@ export function Info() {
             className="rounded-[50%] max-w-[300px] w-full"
           />
           <p className="font-name text-4xl mt-10 text-center">Hồng Thái</p>
-          <span className="mt-5 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            quisquam aperiam veniam assumenda, recusandae voluptatum ipsum
-            corporis in quibusdam. Quisquam quam, ullam assumenda porro
-            blanditiis maxime rerum corrupti tempore doloribus!
-          </span>
+
           <div id="socials" className="flex mt-3">
             <Social
               src={FacebookIcon}
