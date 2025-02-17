@@ -53,71 +53,10 @@ export function Info() {
           className="flex ml-auto mr-auto"
         />
         <h2 className="text-3xl uppercase font-extralight mt-2">
-          Cô Dâu & Chú Rể
+          Chú Rể & Cô Dâu
         </h2>
       </div>
       <div className="flex items-center mt-20 flex-wrap">
-        <div
-          id="left-side-info"
-          className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
-        >
-          <Image
-            src={Bride}
-            alt="bride"
-            className="rounded-[50%] max-w-[300px] w-full"
-          />
-          <p className="font-name text-4xl mt-10 text-center">Hồng Thái</p>
-          <span className="mt-5 text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            quisquam aperiam veniam assumenda, recusandae voluptatum ipsum
-            corporis in quibusdam. Quisquam quam, ullam assumenda porro
-            blanditiis maxime rerum corrupti tempore doloribus!
-          </span>
-          <div id="socials" className="flex mt-3">
-            <Social
-              src={FacebookIcon}
-              alt="facebook"
-              href="https://www.facebook.com/nht.4497"
-              isBlank={true}
-            />
-            <Dialog>
-              <DialogTrigger>
-                <Image
-                  width={25}
-                  height={25}
-                  src={QrCodeIcon}
-                  alt={"qrcode"}
-                  className={"mr-1 cursor-pointer"}
-                />
-              </DialogTrigger>
-              <DialogContent className="p-0 w-auto border-none">
-                <VisuallyHidden>
-                  <DialogTitle>QR Code</DialogTitle>
-                </VisuallyHidden>
-                <Image
-                  src={GroomQR}
-                  alt="qr"
-                  className="max-w-[500px] max-sm:w-[300px]"
-                />
-              </DialogContent>
-            </Dialog>
-          </div>
-        </div>
-        <div
-          id="milestone-info"
-          className="w-1/3 max-sm:w-full flex items-center flex-col px-10 py-20 shadow-outer"
-        >
-          <div>
-            {contents.map((item, i) => (
-              <Milestone
-                time={item.time}
-                title={item.title}
-                content={item.content}
-                key={i}
-              />
-            ))}
-          </div>
-        </div>
         <div
           id="right-side-info"
           className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
@@ -157,6 +96,67 @@ export function Info() {
                 </VisuallyHidden>
                 <Image
                   src={Groom}
+                  alt="qr"
+                  className="max-w-[500px] max-sm:w-[300px]"
+                />
+              </DialogContent>
+            </Dialog>
+          </div>
+        </div>
+        <div
+          id="milestone-info"
+          className="w-1/3 max-sm:w-full flex items-center flex-col px-10 py-20 shadow-outer"
+        >
+          <div>
+            {contents.map((item, i) => (
+              <Milestone
+                time={item.time}
+                title={item.title}
+                content={item.content}
+                key={i}
+              />
+            ))}
+          </div>
+        </div>
+        <div
+          id="left-side-info"
+          className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
+        >
+          <Image
+            src={Bride}
+            alt="bride"
+            className="rounded-[50%] max-w-[300px] w-full"
+          />
+          <p className="font-name text-4xl mt-10 text-center">Hồng Thái</p>
+          <span className="mt-5 text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            quisquam aperiam veniam assumenda, recusandae voluptatum ipsum
+            corporis in quibusdam. Quisquam quam, ullam assumenda porro
+            blanditiis maxime rerum corrupti tempore doloribus!
+          </span>
+          <div id="socials" className="flex mt-3">
+            <Social
+              src={FacebookIcon}
+              alt="facebook"
+              href="https://www.facebook.com/nht.4497"
+              isBlank={true}
+            />
+            <Dialog>
+              <DialogTrigger>
+                <Image
+                  width={25}
+                  height={25}
+                  src={QrCodeIcon}
+                  alt={"qrcode"}
+                  className={"mr-1 cursor-pointer"}
+                />
+              </DialogTrigger>
+              <DialogContent className="p-0 w-auto border-none">
+                <VisuallyHidden>
+                  <DialogTitle>QR Code</DialogTitle>
+                </VisuallyHidden>
+                <Image
+                  src={GroomQR}
                   alt="qr"
                   className="max-w-[500px] max-sm:w-[300px]"
                 />
