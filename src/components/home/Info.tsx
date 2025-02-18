@@ -61,7 +61,7 @@ export function Info() {
       <div className="flex items-center mt-20 flex-wrap">
         <div
           id="right-side-info"
-          className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
+          className="w-1/3 max-sm:w-full flex items-center flex-col bg-info h-[800px] justify-center p-4"
         >
           <Image
             src={Groom}
@@ -117,7 +117,7 @@ export function Info() {
         </div>
         <div
           id="left-side-info"
-          className="w-1/3 max-sm:w-full flex items-center flex-col bg-[#FDF5ED] h-[800px] justify-center p-4"
+          className="w-1/3 max-sm:w-full flex items-center flex-col bg-info h-[800px] justify-center p-4"
         >
           <Image
             src={Bride}

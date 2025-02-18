@@ -16,6 +16,7 @@ export default {
       },
       backgroundColor: {
         prime: "#E2C697",
+        info: "rgb(160 133 91 / 15%)",
       },
       boxShadow: {
         outer: "0 1px 10px 0 rgba(211, 222, 227, .7)",
