@@ -36,7 +36,7 @@ export function Info() {
       content: `Chúng mình đã có 1 khoảng thời gian khá dài tìm hiểu nhau, và sau hơn 1 năm đi quay cơm cùng nhau, chúng mình quyết định từ đồng nghiệp trở thành người yêu.`,
     },
     {
-      title: "Anh hỏi, em đồng ý.",
+      title: "Anh úp sọt.",
       time: formatDate(new Date("2025/02/15")),
       content: `Ban đầu mình ko tính lấy Long đâu, vì Long chưa chịu cầu hôn mình. Nhưng vào ngày dạm ngõ, trước thời điểm 2 bên gia đình chốt sổ, Long đã đeo nhẫn và thì thầm vào tai mình lời cầu hôn, úp sọt mình thành công. Dù sai quy trình nhưng vẫn đúng kết quả 😝`,
     },

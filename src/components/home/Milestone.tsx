@@ -9,7 +9,7 @@ export function Milestone({ title, time, content }: MilestoneProps) {
     <div id="milestone" className="first:mt-0 mt-10 text-center relative">
       <h4 className="text-3xl font-name">{title}</h4>
       {time && (
-        <span className="block mt-3 text-prime font-time text-xl italic">
+        <span className="block mt-3 text-time font-time text-xl italic">
           {time}
         </span>
       )}

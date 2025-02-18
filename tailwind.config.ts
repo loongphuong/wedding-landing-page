@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         prime: "#E2C697",
+        time: "rgb(178 116 13)",
       },
       backgroundColor: {
         prime: "#E2C697",
