@@ -23,7 +23,7 @@ export function Info() {
     {
       title: "Chuyện tình của chúng mình.",
       // time: formatDate(new Date()),
-      content: `Từ đồng nghiệp nên duyên thành bạn đời.`,
+      content: `Từ đồng nghiệp trở thành bạn đời.`,
     },
     {
       title: "Lần đầu gặp nhau.",

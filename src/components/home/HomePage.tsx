@@ -13,7 +13,7 @@ import { TopIcon } from "../../assets/images";
 export function HomePage() {
   const [showScrollToHome, setShowScrollToHome] = useState(false);
   const backgroundRef = useRef<HTMLDivElement>(null);
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
