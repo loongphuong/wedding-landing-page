@@ -53,7 +53,7 @@ export function Background() {
             </Carousel>
           </div>
         </div>
-        <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[150%] max-sm:-translate-y-[250%] max-sm:animate-smBottomToBottom animate-topToBottom font-bold text-[8rem] font-name max-sm:text-[3.5rem] text-center text-[white] w-full">
+        <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[150%] max-sm:-translate-y-[250%] max-sm:animate-smBottomToBottom animate-topToBottom font-bold text-[8rem] max-lg:text-[6rem] font-name max-sm:text-[3.5rem] text-center text-[white] w-full">
           Long & Thái
         </h1>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[50%] animate-bottomToTopBgTimer text-white max-sm:px-10 max-w-[600px] w-full">

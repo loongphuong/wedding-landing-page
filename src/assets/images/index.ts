@@ -30,6 +30,10 @@ import Gallery6 from "./gallery_6.jpg";
 import Gallery7 from "./gallery_7.jpg";
 import Gallery8 from "./gallery_8.jpg";
 import Background1 from "./background_1.jpg";
+import Footer from "./footer.jpg";
+import PinkHeartIcon from "./pink-heart.svg";
+import WhiteHeartIcon from "./white-heart.svg";
+
 export {
   TopIcon,
   BackgroundImage,
@@ -63,4 +67,7 @@ export {
   Gallery8,
   Background1,
   BrideQR,
+  Footer,
+  PinkHeartIcon,
+  WhiteHeartIcon,
 };
