@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { Background } from "./Background";
 import { Gallery } from "./Gallery";
 import { Info } from "./Info";
-import { Location } from "./Location";
+import { Footer } from "./Footer";
 import { Timeline } from "./Timeline";
 import Link from "next/link";
 import Image from "next/image";
@@ -71,7 +71,7 @@ export function HomePage() {
       <Info />
       <Gallery />
       <Timeline />
-      <Location />
+      <Footer />
       {showScrollToHome && (
         <Link
           href="#home"
