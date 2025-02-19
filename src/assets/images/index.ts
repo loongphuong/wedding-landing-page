@@ -13,9 +13,10 @@ import ChineseWeddingIcon from "./chinese-wedding-icon.svg";
 import WeddingMarryIcon from "./wedding-marry.svg";
 import WeddingMarry3Icon from "./wedding-marry-3.svg";
 import WeddingMarry2Icon from "./wedding-merry-2.svg";
-import Bride from "./bride.jpg";
-import Groom from "./groom.jpg";
-import GroomQR from "./groom_qr.jpg";
+import Bride from "./info_bride.jpg";
+import Groom from "./info_groom.jpg";
+import GroomQR from "./qr_groom.png";
+import BrideQR from "./qr_bride.png";
 import CloseIcon from "./close-icon.svg";
 import TopIcon from "./top-icon.svg";
 import ArrowRight from "./arrow-right-icon.svg";
@@ -61,4 +62,5 @@ export {
   Gallery7,
   Gallery8,
   Background1,
+  BrideQR,
 };

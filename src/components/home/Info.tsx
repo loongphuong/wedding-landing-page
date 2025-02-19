@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {
   Bride,
+  BrideQR,
   FacebookIcon,
   Groom,
   GroomQR,
@@ -21,9 +22,9 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 export function Info() {
   const contents = [
     {
-      title: "Chuyện tình của chúng mình.",
+      title: "Câu chuyện của chúng mình.",
       // time: formatDate(new Date()),
-      content: `Từ đồng nghiệp trở thành bạn đời.`,
+      content: `Từ ĐỒNG NGHIỆP trở thành BẠN ĐỜI.`,
     },
     {
       title: "Lần đầu gặp nhau.",
@@ -38,7 +39,7 @@ export function Info() {
     {
       title: "Anh úp sọt.",
       time: formatDate(new Date("2025/02/15")),
-      content: `Ban đầu mình ko tính lấy Long đâu, vì Long chưa chịu cầu hôn mình. Nhưng vào ngày dạm ngõ, trước thời điểm 2 bên gia đình chốt sổ, Long đã đeo nhẫn và thì thầm vào tai mình lời cầu hôn, úp sọt mình thành công. Dù sai quy trình nhưng vẫn đúng kết quả 😝`,
+      content: `Ban đầu mình không tính lấy Long đâu, vì Long chưa chịu cầu hôn mình. Nhưng vào ngày dạm ngõ, trước thời điểm 2 bên gia đình chốt sổ, Long đã đeo nhẫn và thì thầm vào tai mình lời cầu hôn, úp sọt mình thành công. Dù sai quy trình nhưng vẫn đúng kết quả 😝`,
     },
     {
       title: "Ngày chung đôi!",
@@ -92,7 +93,7 @@ export function Info() {
                   <DialogTitle>QR Code</DialogTitle>
                 </VisuallyHidden>
                 <Image
-                  src={Groom}
+                  src={GroomQR}
                   alt="qr"
                   className="max-w-[500px] max-sm:w-[300px]"
                 />
@@ -148,7 +149,7 @@ export function Info() {
                   <DialogTitle>QR Code</DialogTitle>
                 </VisuallyHidden>
                 <Image
-                  src={GroomQR}
+                  src={BrideQR}
                   alt="qr"
                   className="max-w-[500px] max-sm:w-[300px]"
                 />

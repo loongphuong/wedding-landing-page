@@ -61,7 +61,7 @@ export function Timeline() {
           Khi nào & Ở đâu
         </h2>
       </div>
-      <div className="flex justify-around mt-48 bg-[#FDF5ED] pb-32 flex-wrap">
+      <div className="flex justify-around mt-48 bg-info pb-32 flex-wrap">
         {items.map((item, i) => (
           <div
             key={i}
