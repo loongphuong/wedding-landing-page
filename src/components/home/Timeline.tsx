@@ -17,7 +17,7 @@ export function Timeline() {
       locationTitle: "Tại tư gia nhà gái",
       locationDescription:
         "SN 40, ngõ 59 đường Đình Hát, Sơn Đồng, Hoài Đức, Hà Nội",
-      mapSrc: "https://goo.gl/maps/Xt1v3e21U8sScUN48",
+      mapSrc: "https://goo.gl/maps/gtzhHLzZAjzKfhtH7",
     },
     {
       src: WeddingMarryIcon,

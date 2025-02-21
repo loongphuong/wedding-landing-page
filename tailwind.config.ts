@@ -19,7 +19,7 @@ export default {
         info: "rgb(160 133 91 / 15%)",
       },
       backgroundImage: {
-        footer: "url('/images/footer.jpg')",
+        footer: "url('/images/h1-slider1-background.jpg')",
       },
       boxShadow: {
         outer: "0 1px 10px 0 rgba(211, 222, 227, .7)",

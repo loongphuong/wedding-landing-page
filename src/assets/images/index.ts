@@ -1,10 +1,5 @@
-import BackgroundImage from "./h1-slider1-background.jpg";
-import Background2Image from "./h3-slider1-background.jpg";
 import SectionTitleImage from "./section-title-img.png";
 import SectionTitle2Image from "./section-title-img-2.png";
-import BrideImage from "./bride-img.png";
-import GroomImage from "./groom-img.png";
-import GalleryImage from "./gallery-img.jpg";
 import Icon1Image from "./icon-1.png";
 import Icon2Image from "./icon-2.png";
 import FacebookIcon from "./facebook-icon.svg";
@@ -30,18 +25,13 @@ import Gallery6 from "./gallery_6.jpg";
 import Gallery7 from "./gallery_7.jpg";
 import Gallery8 from "./gallery_8.jpg";
 import Background1 from "./background_1.jpg";
-import Footer from "./footer.jpg";
 import PinkHeartIcon from "./pink-heart.svg";
 import WhiteHeartIcon from "./white-heart.svg";
 
 export {
   TopIcon,
-  BackgroundImage,
   SectionTitleImage,
   SectionTitle2Image,
-  BrideImage,
-  GroomImage,
-  GalleryImage,
   Icon1Image,
   Icon2Image,
   FacebookIcon,
@@ -54,7 +44,6 @@ export {
   Groom,
   CloseIcon,
   GroomQR,
-  Background2Image,
   ArrowLeft,
   ArrowRight,
   Gallery1,
@@ -67,7 +56,6 @@ export {
   Gallery8,
   Background1,
   BrideQR,
-  Footer,
   PinkHeartIcon,
   WhiteHeartIcon,
 };
