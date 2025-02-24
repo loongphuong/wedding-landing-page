@@ -59,7 +59,7 @@ export function Gallery() {
               <DialogTrigger className="w-full">
                 <Image className="w-full" src={img} alt="Gallery" />
               </DialogTrigger>
-              <DialogContent className="p-0 w-auto border-none">
+              <DialogContent className="p-0 max-md:w-[70%] border-none">
                 <VisuallyHidden>
                   <DialogTitle>Image</DialogTitle>
                 </VisuallyHidden>
