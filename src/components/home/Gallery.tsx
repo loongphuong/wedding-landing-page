@@ -28,14 +28,14 @@ import {
 
 export function Gallery() {
   const images = [
-    Gallery7,
+    Gallery1,
     Gallery2,
     Gallery3,
     Gallery4,
     Gallery5,
-    Gallery8,
     Gallery6,
-    Gallery1,
+    Gallery7,
+    Gallery8,
   ];
   return (
     <section id="person-info" className="mt-20 max-w-[1400px] ml-auto mr-auto">
