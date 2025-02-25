@@ -65,7 +65,7 @@ export function Timeline() {
         {items.map((item, i) => (
           <div
             key={i}
-            className="shadow-outer px-[16px] py-[16px] w-[20%] max-md:w-[90%] max-sm:w-full flex items-center justify-center flex-col h-[400px] bg-white -mt-32 max-md:mt-0"
+            className="shadow-outer px-[16px] py-[16px] w-[20%] max-md:w-[90%] max-sm:w-full flex items-center justify-center flex-col h-[450px] bg-white -mt-32 max-md:mt-0"
           >
             <div className="h-1/2 pt-10">
               <Image
@@ -78,9 +78,12 @@ export function Timeline() {
                 {item.title}
               </h4>
               {item.subTitle && (
-                <h5 className="uppercase text-xl font-bold text-center">
-                  {item.subTitle}
-                </h5>
+                <>
+                  <p className="text-center">&</p>
+                  <p className="uppercase text-xl font-bold text-center">
+                    {item.subTitle}
+                  </p>
+                </>
               )}
             </div>
             <div className="text-center h-1/2">
