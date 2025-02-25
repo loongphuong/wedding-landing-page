@@ -4,7 +4,7 @@ import { WhiteHeartIcon } from "../../assets/images";
 export function Footer() {
   return (
     <footer id="footer" className="mt-20">
-      <div className="bg-footer h-[550px] relative bg-cover bg-scroll bg-[center_center] bg-no-repeat text-white">
+      <div className="bg-footer h-[750px] max-2xl:h-[550px] relative bg-cover bg-scroll bg-[center_center] bg-no-repeat text-white">
         <div className="absolute block w-full h-full bg-black opacity-30 top-0"></div>
         <div className="absolute table h-full w-full">
           <div className="align-middle text-center table-cell">
