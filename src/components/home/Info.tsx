@@ -27,7 +27,7 @@ export function Info() {
       content: `Từ ĐỒNG NGHIỆP trở thành BẠN ĐỜI.`,
     },
     {
-      title: "Lần đầu gặp nhau.",
+      title: "Lần yêu đầu.",
       time: formatDate(new Date("2020/12/28")),
       content: `Ngày đầu chúng mình gặp nhau cũng là ngày đầu tiên Long chính thức là thành viên của trung tâm.`,
     },
