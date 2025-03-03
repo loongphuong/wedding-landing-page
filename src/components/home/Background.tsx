@@ -1,4 +1,6 @@
+import Image from "next/image";
 import CountdownTimer from "./CountDownTimer";
+import { Background1 } from "../../assets/images";
 
 export function Background() {
   return (
@@ -6,7 +8,11 @@ export function Background() {
       <div className="relative flex select-none">
         <div>
           <div className="overflow-hidden">
-            <div className="h-screen w-screen bg-bg_slider bg-cover bg-top animate-all"></div>
+            <Image
+              src={Background1}
+              alt="bg"
+              className="h-screen w-screen animate-all object-cover"
+            />
           </div>
         </div>
         <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[150%] max-sm:-translate-y-[250%] max-sm:animate-smBottomToBottom animate-topToBottom font-bold text-[8rem] max-lg:text-[6rem] font-name max-sm:text-[3.5rem] text-center text-[white] w-full">
