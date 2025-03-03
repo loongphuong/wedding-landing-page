@@ -27,12 +27,12 @@ export function Info() {
       content: `Từ ĐỒNG NGHIỆP trở thành BẠN ĐỜI.`,
     },
     {
-      title: "Lần yêu đầu.",
+      title: "Lần đầu gặp nhau.",
       time: formatDate(new Date("2020/12/28")),
       content: `Ngày đầu chúng mình gặp nhau cũng là ngày đầu tiên Long chính thức là thành viên của trung tâm.`,
     },
     {
-      title: "Buổi hẹn đầu tiên.",
+      title: "Lời yêu đầu.",
       time: formatDate(new Date("2022/01/08")),
       content: `Chúng mình đã có 1 khoảng thời gian khá dài tìm hiểu nhau, và sau hơn 1 năm đi quay cơm cùng nhau, chúng mình quyết định từ đồng nghiệp trở thành người yêu.`,
     },
