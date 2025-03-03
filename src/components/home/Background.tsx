@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Background1 } from "../../assets/images";
 import CountdownTimer from "./CountDownTimer";
 import { Carousel, CarouselContent, CarouselItem } from "../common/Carousel";
@@ -37,16 +36,7 @@ export function Background() {
               <CarouselContent>
                 {[Background1].map((image, index) => (
                   <CarouselItem key={index}>
-                    <div className="overflow-hidden">
-                      <Image
-                        src={image}
-                        alt={`background-${index}`}
-                        priority={true}
-                        className={`h-screen w-screen object-cover ${
-                          activeIndex === index ? "animate-all" : ""
-                        }`}
-                      />
-                    </div>
+                    <div className="overflow-hidden h-screen w-screen bg-bg_slider bg-cover bg-top animate-all"></div>
                   </CarouselItem>
                 ))}
               </CarouselContent>

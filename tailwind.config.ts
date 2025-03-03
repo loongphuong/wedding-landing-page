@@ -21,6 +21,7 @@ export default {
       backgroundImage: {
         footer: "url('/images/footer-5.jpg')",
         first: "url('/images/footer-4.jpg')",
+        bg_slider: "url('/images/background_2.jpg')",
       },
       boxShadow: {
         outer: "0 1px 10px 0 rgba(211, 222, 227, .7)",
