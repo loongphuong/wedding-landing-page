@@ -32,6 +32,7 @@ export function Timeline() {
       date: "Thứ Bảy, 15 tháng 3, 2025",
       time: "10:30h AM",
       locationTitle: "Tại Trung Tâm Hội Nghị Tiệc Cưới Sen Hồng",
+      subLocationTitle: "Sen Hồng 3 - Khu vực ngoài trời",
       locationDescription: "614 Đ. Lạc Long Quân, Hà Nội",
       mapSrc:
         "https://maps.google.com/maps?q=Trung+Tâm+Hội+Nghị+Tiệc+Cưới+Sen+Hồng",
@@ -43,6 +44,7 @@ export function Timeline() {
       date: "Thứ Bảy, 15 tháng 3, 2025",
       time: "11h AM",
       locationTitle: "Tại Trung Tâm Hội Nghị Tiệc Cưới Sen Hồng",
+      subLocationTitle: "Sen Hồng 3 - Khu vực ngoài trời",
       locationDescription: "614 Đ. Lạc Long Quân, Hà Nội",
       mapSrc:
         "https://maps.google.com/maps?q=Trung+Tâm+Hội+Nghị+Tiệc+Cưới+Sen+Hồng",
@@ -92,6 +94,11 @@ export function Timeline() {
               <span className="block text-lg capitalize mt-2">
                 {item.locationTitle}
               </span>
+              {item.subLocationTitle && (
+                <span className="block text-base capitalize mb-2">
+                  ({item.subLocationTitle})
+                </span>
+              )}
               {item.mapSrc ? (
                 <Link href={item.mapSrc} target="_blank">
                   <span className="block text-lg underline hover:opacity-50">
